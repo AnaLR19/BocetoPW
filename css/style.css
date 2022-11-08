@@ -1,0 +1,11 @@
+
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 125vh;
+    background:url(../images/Granjita\ del\ elote.png) no-repeat;
+
+}
+
+
