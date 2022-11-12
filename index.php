@@ -59,7 +59,7 @@
     </br>
         <a href="#" class="btn">Comprar</a>
     </div>
-    
+
 </section>
 
 <!-- home section ends -->
@@ -75,13 +75,13 @@
          <div class="input-contenedor">
          <i class="fas fa-envelope icon"></i>
          <input type="text" placeholder="Correo Electronico">
-         
+
          </div>
-         
+
          <div class="input-contenedor">
         <i class="fas fa-key icon"></i>
          <input type="password" placeholder="Contraseña">
-         
+
          </div>
          <input type="submit" value="Login" class="button">
          <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
@@ -92,27 +92,27 @@
 
     <section>
 
-        <h1 class="heading"> 
-    
+        <h1 class="heading">
+
         <div class="row">
         <h1>Registrate</h1>
-             
+
              <div class="input-contenedor">
                  <i class="fas fa-user icon"></i>
                  <input type="text" placeholder="Nombre Completo">
-                 
+
                  </div>
-                 
+
                  <div class="input-contenedor">
                  <i class="fas fa-envelope icon"></i>
                  <input type="text" placeholder="Correo Electronico">
-                 
+
                  </div>
-                 
+
                  <div class="input-contenedor">
                 <i class="fas fa-key icon"></i>
                  <input type="password" placeholder="Contraseña">
-                 
+
                  </div>
                  <input type="submit" value="Registrate" class="button">
                  <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
@@ -129,7 +129,7 @@
 
         <div class="video-container">
             <video src="images/hercules-love.mp4" loop autoplay muted></video>
-            
+
         </div>
 
         <div class="content">
@@ -149,7 +149,7 @@
 <section>
 
 
-    
+
 </section>
 
 <!-- icons section ends -->
@@ -168,7 +168,7 @@
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
                     <a href="#" class="cart-btn">add to cart</a>
-                  
+
                 </div>
             </div>
             <div class="content">
@@ -183,7 +183,7 @@
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
                     <a href="#" class="cart-btn">add to cart</a>
-                 
+
                 </div>
             </div>
             <div class="content">
@@ -198,7 +198,7 @@
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
                     <a href="#" class="cart-btn">add to cart</a>
-                  
+
                 </div>
             </div>
             <div class="content">
@@ -213,7 +213,7 @@
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
                     <a href="#" class="cart-btn">add to cart</a>
-                    
+
                 </div>
             </div>
             <div class="content">
@@ -228,7 +228,7 @@
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
                     <a href="#" class="cart-btn">add to cart</a>
-                  
+
                 </div>
             </div>
             <div class="content">
@@ -243,7 +243,7 @@
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
                     <a href="#" class="cart-btn">add to cart</a>
-                   
+
                 </div>
             </div>
             <div class="content">
@@ -258,7 +258,7 @@
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
                     <a href="#" class="cart-btn">add to cart</a>
-                  
+
                 </div>
             </div>
             <div class="content">
@@ -273,7 +273,7 @@
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
                     <a href="#" class="cart-btn">add to cart</a>
-                  
+
                 </div>
             </div>
             <div class="content">
@@ -289,7 +289,7 @@
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
                     <a href="#" class="cart-btn">add to cart</a>
-                   
+
                 </div>
             </div>
             <div class="content">
@@ -325,7 +325,7 @@
             <img src="images/pic-1.png" alt="">
             <div class="user-info">
                 <h3>Daniel</h3>
-               
+
             </div>
         </div>
         <span class="fas fa-quote-right"></span>
@@ -344,7 +344,7 @@
             <img src="images/pic-2.png" alt="">
             <div class="user-info">
                 <h3>Josse</h3>
-            
+
             </div>
         </div>
         <span class="fas fa-quote-right"></span>
@@ -363,14 +363,14 @@
             <img src="images/pic-3.png" alt="">
             <div class="user-info">
                 <h3>Oscar</h3>
-            
+
             </div>
         </div>
         <span class="fas fa-quote-right"></span>
     </div>
 
 </div>
-    
+
 </section>
 
 <!-- review section ends -->
@@ -445,4 +445,3 @@
 
 </body>
 </html>
-
