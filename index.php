@@ -1,45 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/images1.jpg" type="image/x-icon">
-    <title> Elotitos </title>
+<?php
+include('layouts/header.php');
+?>
 
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
 
-</head>
-<body>
+
 
 <!-- header section starts  -->
 
-<header>
 
-    <input type="checkbox" name="" id="toggler">
-    <label for="toggler" class="fas fa-bars"></label>
-
-    <a href="#" class="logo">Granjita<span>.</span></a>
-
-    <nav class="navbar">
-        <a href="#home">Inicio</a>
-        <a href="#about">Sobre Nostros</a>
-        <a href="#products">Productos</a>
-        <a href="#review">Opiniones</a>
-        <a href="#contact">Contactos</a>
-    </nav>
-
-    <div class="icons">
-        <a href="#" class="fas fa-heart"></a>
-        <a href="#" class="fas fa-shopping-cart"></a>
-        <a href="#" class="fas fa-user"></a>
-    </div>
-
-</header>
 
 <!-- header section ends -->
 
@@ -61,6 +30,61 @@
 <!-- home section ends -->
 
 <!-- about section starts  -->
+<section class="about" id="about">
+
+    <h1 class="heading"> <span> Iniciar </span> Sesion</h1>
+
+    <div class="row">
+    <h1>Login</h1>
+     <div class="contenedor">
+         <div class="input-contenedor">
+         <i class="fas fa-envelope icon"></i>
+         <input type="text" placeholder="Correo Electronico">
+         
+         </div>
+         
+         <div class="input-contenedor">
+        <i class="fas fa-key icon"></i>
+         <input type="password" placeholder="Contraseña">
+         
+         </div>
+         <input type="submit" value="Login" class="button">
+         <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+         <p>¿No tienes una cuenta? <a class="link" href="registrarse.html">Registrate </a></p>
+
+
+    </section>
+
+    <section>
+
+        <h1 class="heading"> 
+    
+        <div class="row">
+        <h1>Registrate</h1>
+             
+             <div class="input-contenedor">
+                 <i class="fas fa-user icon"></i>
+                 <input type="text" placeholder="Nombre Completo">
+                 
+                 </div>
+                 
+                 <div class="input-contenedor">
+                 <i class="fas fa-envelope icon"></i>
+                 <input type="text" placeholder="Correo Electronico">
+                 
+                 </div>
+                 
+                 <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                 <input type="password" placeholder="Contraseña">
+                 
+                 </div>
+                 <input type="submit" value="Registrate" class="button">
+                 <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+                 <p>¿Ya tienes una cuenta?<a class="link" href="index.html">Iniciar Sesion</a></p>
+             </div>
+            </form>
+    </section>
 
 <section class="about" id="about">
 
@@ -88,6 +112,9 @@
 <!-- icons section starts  -->
 
 <section>
+
+
+    
 </section>
 
 <!-- icons section ends -->
@@ -309,7 +336,41 @@
 
 </div>
     
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span> Contacto </span> </h1>
+
+    <div class="row">
+
+        <form action="">
+            <input type="text" placeholder="nombre" class="box">
+            <input type="email" placeholder="correo" class="box">
+            <input type="number" placeholder="numero" class="box">
+            <textarea name="" class="box" placeholder="mensaje" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar mensaje" class="btn">
+        </form>
+
+        <div class="image">
+            <img src="images/images1.jpg" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
 
 
-</body>
-</html>
+<?php
+include('layouts/footer.php');
+?>
+
+
