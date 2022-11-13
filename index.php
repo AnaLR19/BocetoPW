@@ -362,7 +362,7 @@ include('layouts/header.php');
 
 <!-- footer section starts  -->
 
-
+              
 <?php
 include('layouts/footer.php');
 ?>
